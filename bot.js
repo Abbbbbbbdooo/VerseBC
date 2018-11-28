@@ -45,10 +45,7 @@ client.on('message', message => {
     }  //7md
     }) //7md
 
-client.on('ready', () => {
-     client.user.setActivity("`Forest Brodcast",{type: `http://twitch.tv/Forest Server'})
 
-});
 
  client.login(process.env.BOT_TOKEN);
  
